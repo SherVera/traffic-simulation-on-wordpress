@@ -1,0 +1,12 @@
+ observations:
+  evaluation_if_server_could_handle_load:
+    - performance_metrics:
+        - stable_memory: 785M / 7.76G
+        - cpu_load_average: 10%
+
+  specification_of_excessive_resource_usage:
+    - cpu_peak_usage:
+        - observed: true 
+        - peak_percentage: 90.8
+        - request_count_at_peak:
+            - value:  1984.68
