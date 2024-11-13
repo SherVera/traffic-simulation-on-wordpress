@@ -8,7 +8,7 @@ Procedimiento:
 
 1. Se verifica que ambas maquinas pertenezcan a la misma red y tengan conexion entre si.
 2. Se procede a instalar Apache Benchmark para hacer pruebas de generacion de trafico en la maquina Kali linux.
-3. Se ejecuta el comando `ab -n 1000 -c 10 http://<IP_debian>/` para generar trafico![Trafic](Screenshot 2024-11-13 002943.png)
+3. Se ejecuta el comando `ab -n 1000 -c 10 http://<IP_debian>/` para generar trafico![Trafic](Screenshot%202024-11-13%20002943.png)
 4. Se instala la herramienta `htop` para monitorear el servidor web.
 5. Se ejecuta para monitorear los procesos y recursos del servidor web
 
