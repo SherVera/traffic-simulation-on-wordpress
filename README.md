@@ -12,7 +12,7 @@ Procedimiento:
 4. Se instala la herramienta `htop` para monitorear el servidor web.
 5. Se ejecuta para monitorear los procesos y recursos del servidor web
 
-![Services](Screenshot 2024-11-13 002929.png)
+![Services](Screenshot%202024-11-13%20002929.png)
 6. Se ejecuta el comando `ab -n 5000 -c 200 http://<IP_debian>/ > report_ab.txt` para generar trafico y los resultados almacenarlo en el archivo de texto. 
 	==*Para las pruebas se ejecuto el comando `ab -n 15000 -c 200 http://192.168.0.106/ > report_ab_second.txt` ya que la maquina virtual de prueba tiene recursos altos, y para que los valores en los tests sean consecuentos a lo que se requiere*==
 7. En la ejecucion de prueba se obtuvo este resultado en la herramienta de monitoreo `htop`
